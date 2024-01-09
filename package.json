@@ -1,0 +1,17 @@
+{
+  "name": "bot_send",
+  "version": "1.0.0",
+  "description": "Bot to send dvpn from dvpn nodes wallet",
+  "main": "index.js",
+  "repository": "",
+  "author": "AtmosferMuda",
+  "license": "",
+  "private": false,
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.28.4",
+    "@cosmjs/stargate": "^0.28.4",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "undici": "^5.1.1"
+  }
+}
