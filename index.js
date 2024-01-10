@@ -21,6 +21,7 @@ const lcdEndpoint = process.env.LCD;
 const rpcEndpoint = process.env.RPC;
 const addressReceiver = process.env.RECIPIENT;
 const minimumBalance = process.env.MINIMUMBALANCE;
+const minimumSend = process.env.MINIMUMSEND;
 
 var mnemonic = process.env.MNEMONICS.split(","), 
 i = -1;
@@ -66,7 +67,8 @@ async function trx (mnemonic) {
     console.log("Checking wallet", addressWallet.address.yellow);
     let balance = await getBalanceFor(addressWallet.address);
     let dvpn = (balance - BigInt(minimumBalance))/1000000n;
-    if (balance >= minimumBalance) {
+    let totals = BigInt(minimumBalance) + BigInt(minimumSend);
+    if (balance >= totals) {
         balance = balance - BigInt(minimumBalance);
           try { 
             let tx = await client.signAndBroadcast(

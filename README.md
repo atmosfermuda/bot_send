@@ -13,7 +13,9 @@ Tool to automatically send DVPN from DVPN Nodes wallet.
 >RPC=https://rpc.sentinel.quokkastake.io #make sure RPC have indexing enabled or it will return error<br/>
 >RECIPIENT=Your Sentinel wallet for receiving DVPN<br/>
 >MINIMUMBALANCE=50000000 #minimum balance in udvpn to be remain in your node wallet<br/>
->MNEMONICS=your mnemonic 1,your mnemonic 2, your mnemonic 3, your mnemonic 4
+>MINIMUMSEND=30000000 #Minimum amount in udvpn to be send
+>MNEMONICS=your mnemonic 1,your mnemonic 2, your mnemonic 3, your mnemonic 4</br>
+
 4. Run `node index.js`
 5. Enjoy your life.
 
