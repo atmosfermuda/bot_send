@@ -19,8 +19,8 @@ npm install
 ```
 4. Create `.env` file inside bot_send dir with these parameters.</br>
 ```
-LCD=https://api.sentinel.quokkastake.io
-RPC=https://rpc.sentinel.quokkastake.io #make sure RPC have indexing enabled or it will return error
+LCD=https://api-sentinel.atmosfermuda.com
+RPC=https://rpc-sentinel.atmosfermuda.com #make sure RPC have indexing enabled or it will return error
 RECIPIENT=Your Sentinel wallet for receiving DVPN
 MINIMUMBALANCE=50000000 #minimum balance in udvpn to be remain in your node wallet
 MINIMUMSEND=30000000 #Minimum amount in udvpn to be send
@@ -33,8 +33,8 @@ MNEMONICS=your mnemonic 1,your mnemonic 2,your mnemonic 3,your mnemonic 4
 
 1. Create `.env` file with these parameters.</br>
 ```
-LCD=https://api.sentinel.quokkastake.io
-RPC=https://rpc.sentinel.quokkastake.io #make sure RPC have indexing enabled or it will return error
+LCD=https://api-sentinel.atmosfermuda.com
+RPC=https://rpc-sentinel.atmosfermuda.com #make sure RPC have indexing enabled or it will return error
 RECIPIENT=Your Sentinel wallet for receiving DVPN
 MINIMUMBALANCE=50000000 #minimum balance in udvpn to be remain in your node wallet
 MINIMUMSEND=30000000 #Minimum amount in udvpn to be send
