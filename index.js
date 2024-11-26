@@ -56,14 +56,14 @@ async function trx (mnemonic) {
       { registry: registry });
 
     const fee = {
-		amount: [
-			{
-				denom: "udvpn",
-				amount: "9793",
-			},
-		],
-		gas: "97922",
-	  };
+    amount: [
+      {
+        denom: "udvpn",
+        amount: "15000",
+      },
+    ],
+    gas: "150000",
+    };
     console.log("Checking wallet", addressWallet.address.yellow);
     let balance = await getBalanceFor(addressWallet.address);
     let dvpn = (balance - BigInt(minimumBalance))/1000000n;
