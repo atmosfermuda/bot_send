@@ -53,6 +53,10 @@ MNEMONICS=your mnemonic 1,your mnemonic 2,your mnemonic 3,your mnemonic 4
 5. Run `node index.js`
 6. Enjoy your life.
 
+## Mod version
+
+Added random wait time made by freQniK https://github.com/freQniK/bot_send
+
 ## Support me
 You can also suport me by delegating some of your DVPN here https://www.mintscan.io/sentinel/validators/sentvaloper1qksz3uscxvjyv8jdxw7lu26xqksddxwjwf7tvh<br/>
 or donating some DVPN to `sent1qksz3uscxvjyv8jdxw7lu26xqksddxwj3vpxr7`.
